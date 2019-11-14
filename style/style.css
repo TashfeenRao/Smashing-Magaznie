@@ -144,11 +144,9 @@ body {
   color: #fff;
 }
 
-
 .content-writer {
   font-size: 25px;
 }
-
 
 .content {
   font-size: 25px;
@@ -228,7 +226,6 @@ body {
   color: #111;
   font-size: 30px;
 }
-
 
 .middle-content {
   color: #111;
@@ -362,14 +359,15 @@ body {
   margin: 0 0 0 0;
 }
 
-
 .footer-content ul li::before {
   width: 2rem;
   display: inline-block;
   content: "\2022";
   color: black;
 }
-
+.footer-second h4 a {
+  color: white;
+}
 .footer-content ul li {
   list-style-type: none;
   padding: 0 0 0 0;
@@ -379,10 +377,6 @@ body {
 .footer-second {
   line-height: 2;
   margin-bottom: 500px;
-}
-
-.footer-second h4 a {
-  color: white;
 }
 
 .bottom-links {
@@ -408,14 +402,14 @@ body {
 .middle-title a:hover {
   color: tomato;
 }
+.promotion-title a:hover {
+  color: tomato;
+}
 .bottom-links h4 a:hover {
   color: black;
 }
 .footer-content ul li a:hover {
   color: black;
-}
-.promotion-title a:hover {
-  color: tomato;
 }
 
 .break {
