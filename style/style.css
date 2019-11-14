@@ -140,18 +140,15 @@ body {
 .content-title {
   font-size: 40px;
 }
-
-.content-title a:hover {
-  color: tomato;
+.promotion-content a {
+  color: #fff;
 }
+
 
 .content-writer {
   font-size: 25px;
 }
 
-.content-writer a:hover {
-  color: black;
-}
 
 .content {
   font-size: 25px;
@@ -178,18 +175,10 @@ body {
   font-size: 40px;
 }
 
-.promotion-title a:hover {
-  color: tomato;
-}
-
 .promotion-content {
   font-size: 25px;
   line-height: 35px;
   text-decoration: none;
-  color: #fff;
-}
-
-.promotion-content a {
   color: #fff;
 }
 
@@ -240,9 +229,6 @@ body {
   font-size: 30px;
 }
 
-.middle-title a:hover {
-  color: tomato;
-}
 
 .middle-content {
   color: #111;
@@ -348,7 +334,6 @@ body {
   border: 1px solid black;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  border: 1px solid black;
   grid-column: 1/-1;
   grid-row: 300/350;
   text-align: center;
@@ -377,9 +362,6 @@ body {
   margin: 0 0 0 0;
 }
 
-.footer-content ul li a:hover {
-  color: black;
-}
 
 .footer-content ul li::before {
   width: 2rem;
@@ -417,8 +399,23 @@ body {
 .box a:hover {
   color: #61140f;
 }
+.content-title a:hover {
+  color: tomato;
+}
+.content-writer a:hover {
+  color: black;
+}
+.middle-title a:hover {
+  color: tomato;
+}
 .bottom-links h4 a:hover {
   color: black;
+}
+.footer-content ul li a:hover {
+  color: black;
+}
+.promotion-title a:hover {
+  color: tomato;
 }
 
 .break {
