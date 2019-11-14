@@ -350,7 +350,9 @@ body {
   list-style-position: inside;
   padding-top: 40px;
 }
-
+.footer-second h4 a {
+  color: white;
+}
 .footer-content ul li a {
   color: white;
   text-decoration: none;
@@ -365,9 +367,7 @@ body {
   content: "\2022";
   color: black;
 }
-.footer-second h4 a {
-  color: white;
-}
+
 .footer-content ul li {
   list-style-type: none;
   padding: 0 0 0 0;
