@@ -13,15 +13,18 @@ body {
   grid-column: 1/-1;
   grid-row: 1/5;
 }
+
 .box {
   display: grid;
   justify-content: center;
   align-content: center;
 }
+
 .box a {
   text-decoration: none;
   color: white;
 }
+
 .box a button {
   width: 130px;
   height: 50px;
@@ -36,37 +39,44 @@ body {
   font-size: 20px;
   color: #fff;
 }
+
 .box a:hover {
   color: #61140f;
 }
+
 .section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column: 1/-1;
   grid-row: 5/40;
 }
+
 .section-1 {
   display: grid;
   border: 1px solid blanchedalmond;
   justify-content: center;
   align-content: center;
 }
-.section-1 i{
-    font-size: 70px;
-    color: #fff;
+
+.section-1 i {
+  font-size: 70px;
+  color: #fff;
 }
-.section-article{
-    display: grid;
+
+.section-article {
+  display: grid;
 }
-.section-article a{
-    text-decoration: none;
-    
+
+.section-article a {
+  text-decoration: none;
 }
-.section-article-title{
+
+.section-article-title {
   text-decoration: none;
   color: #fff;
   font-size: 50px;
 }
+
 .section-article-comment {
   background-image: url("../images/chat.svg");
   color: #fff;
@@ -76,126 +86,144 @@ body {
   padding-left: 1.73em;
   background-position: 5px 70%;
   background-size: 1.25em;
-  
 }
-.article-tags{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-.article-tags li{
-    list-style: none;
-}
-.article-tag-1 a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-}
-.article-tag-1::before{
-    content: '#';
-    color: #61140f;
-    margin-right: .25em;
-    font-size: 20px;
 
+.article-tags {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
+
+.article-tags li {
+  list-style: none;
+}
+
+.article-tag-1 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.article-tag-1::before {
+  content: '#';
+  color: #61140f;
+  margin-right: .25em;
+  font-size: 20px;
+}
+
 .main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border: 1px solid black;
   grid-column: 1/-1;
   grid-row: 40/150;
-  
 }
+
 .article-content {
   border: 1px solid black;
   display: grid;
   justify-content: center;
   align-content: flex-start;
+}
 
+.article-content time {
+  font-size: 20px;
+  color: #333;
 }
-.article-content time{
-    font-size: 20px;
-    color: #333;
-}
-.content-title{
-font-size: 40px;
 
+.content-title {
+  font-size: 40px;
 }
-.content-title a{
-    color: #111;
+
+.content-title a {
+  color: #111;
 }
-.content-title a:hover{
-    color: tomato;
+
+.content-title a:hover {
+  color: tomato;
 }
-.content-writer{
-    font-size: 25px;
+
+.content-writer {
+  font-size: 25px;
 }
-.content-writer a{
-    text-decoration: none;
-    color: #333;
+
+.content-writer a {
+  text-decoration: none;
+  color: #333;
 }
-.content-writer a:hover{
-    color: black;
+
+.content-writer a:hover {
+  color: black;
 }
-.content{
-    font-size: 25px;
-    line-height: 35px;
-    text-decoration: none;
-    color: #111;
+
+.content {
+  font-size: 25px;
+  line-height: 35px;
+  text-decoration: none;
+  color: #111;
 }
-.content-arrow{
-    font-size: 50px;
-    text-decoration: none;
+
+.content-arrow {
+  font-size: 50px;
+  text-decoration: none;
 }
+
 .article-content-5 {
   border: 1px solid black;
   border-radius: 20px;
   display: grid;
   justify-content: center;
   align-content: center;
-  
   grid-column: 2/4;
 }
-.promotion-title{
-    font-size: 40px;
-    
+
+.promotion-title {
+  font-size: 40px;
 }
-.promotion-title a{
-    color: #fff;
+
+.promotion-title a {
+  color: #fff;
 }
-.promotion-title a:hover{
-    color: tomato;
+
+.promotion-title a:hover {
+  color: tomato;
 }
-.promotion-content{
-    font-size: 25px;
-    line-height: 35px;
-    text-decoration: none;
-    color: #fff;
+
+.promotion-content {
+  font-size: 25px;
+  line-height: 35px;
+  text-decoration: none;
+  color: #fff;
 }
-.promotion-content a{
-    color: #fff;
+
+.promotion-content a {
+  color: #fff;
 }
-.promotion-btn button{
-   width: 350px;
-    height: 80px;
-    cursor: pointer;
-    border-radius: 10px;
-    background: rgb(255, 255, 255);
-    background-image: url("../images/search.svg");
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-position: left;
-    background-position-x: 10px;
-    font-size: 20px;
-    color: rgb(38, 125, 204);
+
+.promotion-btn button {
+  width: 350px;
+  height: 80px;
+  cursor: pointer;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  background-image: url("../images/search.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: left;
+  background-position-x: 10px;
+  font-size: 20px;
+  color: rgb(38, 125, 204);
 }
-.article-content-5 a img{
- height: 400px;
- width: 300px;
+
+.article-content-5 a img {
+  height: 400px;
+  width: 300px;
 }
+
 .article-content-10 {
   border: 1px solid black;
   grid-column: 2/4;
 }
+
 .middle {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -203,19 +231,58 @@ font-size: 40px;
   grid-column: 1/-1;
   grid-row: 150/190;
 }
+
 .middle-1 {
   border: 1px solid black;
 }
+
 .middle-top {
   grid-column: 1/-1;
   grid-row: 1/5;
   border: 1px solid black;
+  text-align: center;
+  padding-top: 50px;
+  background: url(../images/coffeeCat.svg) no-repeat;
+  background-size: 20%;
+  background-position: center bottom;
 }
+
+.middle-top h3 {
+  color: white;
+  font-weight: lighter;
+}
+
+.middle-top h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+.middle-top h2 {
+  color: white;
+  font-weight: lighter;
+}
+
+.middle-top span {
+  color: white;
+  font-weight: bold;
+}
+
+.middle-top button {
+  background-color: white;
+  color: gray;
+  width: 300px;
+  height: 80px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
 .middle-heading {
   grid-column: 1/-1;
   grid-row: 5/6;
   border: 1px solid black;
 }
+
 .bottom {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -223,22 +290,27 @@ font-size: 40px;
   grid-column: 1/-1;
   grid-row: 190/260;
 }
+
 .bottom-1 {
   border: 1px solid black;
 }
+
 .bottom-top {
   border: 1px solid black;
   grid-column: 1/-1;
 }
+
 .bottom-down {
   border: 1px solid black;
   grid-column: 1/-1;
 }
+
 .bottom-right {
   border: 1px solid black;
   grid-column: 2/4;
   grid-row: 3/4;
 }
+
 .footer {
   border: 1px solid black;
   display: grid;
