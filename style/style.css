@@ -70,7 +70,6 @@ body {
 
 .section-1 {
   display: grid;
-  border: 1px solid blanchedalmond;
   justify-content: center;
   align-content: center;
 }
@@ -120,13 +119,11 @@ body {
 .main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  border: 1px solid black;
   grid-column: 1/-1;
   grid-row: 40/150;
 }
 
 .article-content {
-  border: 1px solid black;
   display: grid;
   justify-content: center;
   align-content: flex-start;
@@ -161,8 +158,8 @@ body {
 }
 
 .article-content-5 {
-  border: 1px solid black;
   border-radius: 20px;
+  border: 1px solid #111;
   display: grid;
   justify-content: center;
   align-content: center;
@@ -197,20 +194,18 @@ body {
 }
 
 .article-content-10 {
-  border: 1px solid black;
   grid-column: 2/4;
 }
 
 .middle {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  border: 1px solid black;
+
   grid-column: 1/-1;
   grid-row: 150/250;
 }
 
 .middle-1 {
-  border: 1px solid black;
   display: grid;
   justify-items: center;
 }
@@ -276,7 +271,6 @@ body {
 .middle-heading {
   grid-column: 1/-1;
   grid-row: 3/4;
-  border: 1px solid black;
   line-height: 1;
   text-align: center;
   color: white;
@@ -290,32 +284,28 @@ body {
 .bottom {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  border: 1px solid black;
   grid-column: 1/-1;
   grid-row: 250/300;
 }
 
 .bottom-1 {
-  border: 1px solid black;
   display: grid;
   justify-content: center;
   align-content: flex-start;
 }
 
 .bottom-top {
-  border: 1px solid black;
   grid-column: 1/-1;
 }
 
 .bottom-down {
-  border: 1px solid black;
   grid-column: 1/-1;
 }
 
 .bottom-right {
-  border: 1px solid black;
   grid-row: 2/3;
   border-radius: 20px;
+  border: 1px solid #111;
   display: grid;
   justify-content: center;
   align-content: center;
@@ -328,7 +318,6 @@ body {
 }
 
 .footer {
-  border: 1px solid black;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-column: 1/-1;
