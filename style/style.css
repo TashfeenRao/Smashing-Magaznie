@@ -14,18 +14,18 @@ body {
   grid-row: 1/5;
 }
 
-.box {
+.nav-links {
   display: grid;
   justify-content: center;
   align-content: center;
 }
 
-.box a {
+.nav-links a {
   text-decoration: none;
   color: white;
 }
 
-.box button {
+.nav-links button {
   width: 130px;
   height: 50px;
   cursor: pointer;
@@ -379,7 +379,7 @@ body {
 .bottom-links h4 {
   flex: 1;
 }
-.box a:hover {
+.nav-links a:hover {
   color: #61140f;
 }
 .content-title a:hover {
